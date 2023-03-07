@@ -1,0 +1,42 @@
+.works{
+    color: var(--another-text-color);
+    background-color: var(--background-second);
+}
+
+.works-title{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 82.5%;
+
+    padding-top: 88px;
+    padding-left: 51px;
+    margin-bottom: 39px;
+}
+
+.work-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+
+    width: 147px;
+}
+
+.button-set{
+    display: flex;
+}
+
+.works-button{
+    width: 64px;
+    height: 64px;
+    margin-right: -5px;
+
+    background-color: transparent;
+
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

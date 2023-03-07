@@ -1,0 +1,75 @@
+.header{
+height: 845px;
+
+    background-image: url(../image/backgroung.png);
+    background-repeat: no-repeat;
+}
+
+.header-menu{
+    padding: 40px;
+    border-bottom: 1px solid var(--decoration-line);
+    margin: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-compani{
+    display: flex;
+    align-items: baseline;
+}
+
+.first-logo{
+    margin-right: 5px;
+}
+
+.header-button{
+    padding: 17.5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    background-color: var(  --another-text-color);
+}
+
+.header-title{
+
+    margin-top: 118px;
+    margin-bottom: 20px;
+
+    line-height: 82.5%;
+    font-size: 47px;
+    color: var(  --another-text-color);
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.header-text{
+    font-size: 13;
+    margin-left: 10px;
+    line-height: 160%;
+    color: var(  --another-text-color);
+
+    margin-bottom: 53px;
+}
+
+.header-about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding-left: 40px;
+}
+
+.main-button{
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--main-text-color);
+    background-color: var(--backgrond-main);
+
+    width: 213px;
+    height: 82px;
+    border-radius: 60px;
+
+}

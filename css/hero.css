@@ -1,0 +1,36 @@
+.hero{
+    background-color: var( --main-text-color);
+    color: var(--another-text-color);
+}
+
+.hero-title{
+    padding-top: 80px;
+    padding-left: 40px;
+
+    font-size: 30px;
+    line-height: 82.5%;
+
+    /* font-style: normal; */
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.hero-text{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 35px;
+    
+    font-size: 13px;
+    line-height: 160%;
+}
+
+.hero-photos-list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.decor-photo{
+    margin-top: 54px;
+    padding-bottom: 154px;
+}

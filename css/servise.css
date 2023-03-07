@@ -1,0 +1,48 @@
+.pre-servise{
+    padding-top: 86px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.servise-p{
+    font-size: 10px;
+    line-height: 82.5%;
+    margin-right: 20px;
+}
+
+.servise-title{
+
+    width: 295px;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 82.5%;
+
+    padding-bottom: 30px;
+
+}
+
+.servise-item{
+    list-style: upper-latin    ;
+
+}
+
+.servise-set{
+    display: flex;
+    list-style: decimal;
+    margin-top: 35px;
+    width: 300px;
+}
+
+.servise-text{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid var(--main-text-color);
+}
+
+.servise-set-number{
+    margin-right: 20px;
+    margin-left: 10px;
+}
