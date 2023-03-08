@@ -1,14 +1,15 @@
 .pre-servise{
     padding-top: 86px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    /* align-items: flex-start; */
+    justify-content: center;
 }
 
 .servise-p{
     font-size: 10px;
     line-height: 82.5%;
     margin-right: 20px;
+    margin-left: 10px;
 }
 
 .servise-title{
@@ -25,7 +26,9 @@
 }
 
 .servise-item{
-    list-style: upper-latin    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -45,4 +48,6 @@
 .servise-set-number{
     margin-right: 20px;
     margin-left: 10px;
+    padding-top: 30px;
 }
+

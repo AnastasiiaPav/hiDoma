@@ -7,9 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>HiDOMA</title>
+    <script src="./js/form.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("kN0MkD6F4QQr3HWpj");
+        })();
+    </script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nunito+Sans&display=swap"
@@ -52,40 +62,133 @@
                 <span class="servise-set-number">01.</span>
                 <div class="servise-text">
                     <h3> Дизайн житлових інтер'єрів</h3>
-                    <p>Ми реалізуємо дизайн інтер'єру котеджей, домів та маланьких квартир. За умови грамотного дизайну інтер'єру, навіть малогабаритну квартиру можна істотно розширити, модернізувати і візуально збільшити, надавши їй більше корисного простору.</p>
+                    <p>Ми реалізуємо дизайн інтер'єру котеджей, домів та маланьких квартир. За умови грамотного дизайну
+                        інтер'єру, навіть малогабаритну квартиру можна істотно розширити, модернізувати і візуально
+                        збільшити, надавши їй більше корисного простору.</p>
                 </div>
             </li>
-            <li  class="servise-set">
+            <li class="servise-set">
                 <span class="servise-set-number">02.</span>
                 <div class="servise-text">
                     <h3> Дизайн комерційних інтер'єрів</h3>
-                    <p>Офіс, ресторан або кав’ярн. З нашими дизайнами Ви відчуєте всю силу простору та потенціал який відкриється</p>
+                    <p>Офіс, ресторан або кав’ярн. З нашими дизайнами Ви відчуєте всю силу простору та потенціал який
+                        відкриється</p>
                 </div>
             </li>
-            <li  class="servise-set">
+            <li class="servise-set">
                 <span class="servise-set-number">03.</span>
                 <div class="servise-text">
                     <h3>Комплектація об'єкту</h3>
-                    <p>Вибір матеріалів і предметів інтер'єру разом із фахівцем - комплексна та економно вигідна послега для клієнта. Вона допомагає придбати стилістично виправдані та функціональні об'єкти, які не будуть вибиватися із загальної картини Вашаго будинку</p>
+                    <p>Вибір матеріалів і предметів інтер'єру разом із фахівцем - комплексна та економно вигідна послега
+                        для клієнта. Вона допомагає придбати стилістично виправдані та функціональні об'єкти, які не
+                        будуть вибиватися із загальної картини Вашаго будинку</p>
                 </div>
             </li>
-            <li  class="servise-set">
+            <li class="servise-set">
                 <span class="servise-set-number">04.</span>
                 <div class="servise-text">
                     <h3>Ремонт об’экту під ключ</h3>
-                    <p>Наша команда спеціалістів перенесе картинку з бумаги у реальність. Фахіці знають як працювати з найновішими матеріалами та технологіями. Ефект "Вау" гарантовано!</p>
+                    <p>Наша команда спеціалістів перенесе картинку з бумаги у реальність. Фахіці знають як працювати з
+                        найновішими матеріалами та технологіями. Ефект "Вау" гарантовано!</p>
                 </div>
             </li>
         </ol>
     </section>
     <section class="works">
         <h2 class="works-title"> ОЗНАЙОМТЕСЬ З НАШИМИ КЕЙСАМИ</h2>
-        <p class="work-text">У нашому активі реалізовано понад 100 проектів</p>
-        <ul class="button-set">
-            <li><button type="button" class="works-button"><img src="./image/left.png" alt="" width="5"></button></li>
-            <li><button type="button" class="works-button"><img src="./image/right.png" alt="" width="5"></button></li>
-        </ul>
+        <div class="works-about">
+            <p class="work-text">У нашому активі реалізовано понад 100 проектів</p>
+            <ul class="button-set">
+                <li><button type="button" class="works-button button-left"><img src="./image/left.png" alt=""
+                            width="5"></button></li>
+                <li><button type="button" class="works-button button-right"><img src="./image/right.png" alt=""
+                            width="5"></button></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <ul class="slider-line">
+                <li><img src="./image/slider1.png" alt="slider-photo" class="slider-photo"></li>
+                <li><img src="./image/slider2.png" alt="slider-photo" class="slider-photo"></li>
+                <li><img src="./image/slider3.png" alt="slider-photo" class="slider-photo"></li>
+                <li><img src="./image/slider4.png" alt="slider-photo" class="slider-photo"></li>
+                <li><img src="./image/slider5.jpg" alt="slider-photo" class="slider-photo"></li>
+            </ul>
+        </div>
+        <div class="run-container">
+            <marquee direction="left" scrollamount="10" class="run-line">HI-DOM DESIGN • HI-DOM DESIGN • HI-DOM DESIGN •
+                HI-DOM DESIGN </marquee>
+            <a href="" class="works-more">Дивитись більше</a>
+        </div>
     </section>
+    <section class="cooperation">
+        <h2 class="cooperation-title">ПРОЦЕДУРА СПІВПРАЦІ</h2>
+        <ul class="cooperation-set">
+            <li class="cooperation-item"><span class="servise-set-number">01.</span>
+                <p class="cooperation-text">Оформлення заявки на нашому сайті</p>
+            </li>
+            <li class="cooperation-item"><span class="servise-set-number">02.</span>
+                <p class="cooperation-text">Замірювання та фото об’єкту</p>
+            </li>
+            <li class="cooperation-item"><span class="servise-set-number">03.</span>
+                <p class="cooperation-text">Розробка дизайн-проекту з усіма побажаннями</p>
+            </li>
+            <li class="cooperation-item"><span class="servise-set-number">04.</span>
+                <p class="cooperation-text">Прорахунок комерційної пропозиції</p>
+            </li>
+            <li class="cooperation-item"><span class="servise-set-number">05.</span>
+                <p class="cooperation-text">Закупівля усіх матеріалів</p>
+            </li>
+            <li class="cooperation-item"><span class="servise-set-number">06.</span>
+                <p class="cooperation-text">Будівельні роботи на об’єкті</p>
+            </li>
+        </ul>
+        <img src="./image/decor-photo3.png" alt="decoration-photo" class="cooperation-photo">
+    </section>
+    <footer class="footer">
+        <h2 class="cooperation-title footer-title">БАЖАЄТЕ ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ ? </h2>
+        <p class="work-text">Залишайте заявку і ми незабаром з вами зв’яжемось</p>
+        <div class="form">
+            <div class="form-group">
+                <h5 for="name " class="form-title">Введіть ваше ім’я</h5>
+                <input type="text" class="form-control" id="name" placeholder="" />
+            </div>
+            <div class="form-group">
+                <h5 for="email" class="form-title">Email</h5>
+                <input type="email" class="form-control" id="email" placeholder="expample@gmail.com" />
+            </div>
+            <div class="form-group">
+                <h5 for="tel" class="form-title">Телефон</h5>
+                <input type="tel" class="form-control" id="tel" placeholder="38(0__)___-__-__" />
+            </div>
+            <button class="main-button button-footer" onclick="sendMail()">Залишити заявку</button>
+        </div>
+
+        <div class="footer-contacts-set">
+            <ul>
+                <li>
+                    <p class="footer-contacts">Tел.</p><a href="tel:+38000000000" class="contacts">+380-000-00-00</a>
+                </li>
+                <li>
+                    <p class="footer-contacts">Адреса:</p><a
+                        href="https://www.google.com/maps/place/Holosiivskyi+National+Natural+Park/@50.3831943,30.4952919,13.34z/data=!4m15!1m8!3m7!1s0x40d4cf4ee15a4505:0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3b1!8m2!3d50.4501!4d30.5234!16zL20vMDJzbjM0!3m5!1s0x40d4c8b6554bd0b3:0x63c3386d346e5a5c!8m2!3d50.3664965!4d30.4976878!16s%2Fg%2F1213jfpv"
+                        class="contacts">Місто
+                        Київ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-set-confidense">
+            <a
+                href="https://pdp.nacs.gov.ua/pages/zahyst-pers-dannih#:~:text=%D0%9F%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D1%96%20%E2%80%93%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%2C%20%D1%8F%D0%BA%D0%B8%D0%BC%D0%B8%20%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%83%D1%94%D1%82%D1%8C%D1%81%D1%8F,%C2%BB%20(%D0%B4%D0%B0%D0%BB%D1%96%20%E2%80%93%20%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB)." class="footer-confidense">Політика
+                конфіденційності</a>
+                
+                <ul class="footer-set-button">
+                    <li><button type="button" class="footer-button"><img src="./image/Vector (1).png" alt=""></button></li>
+                    <li><button type="button" class="footer-button"><img src="./image/Vector.png" alt=""></button></li>
+                </ul>
+        </div>
+    </footer>
 </body>
+<script src="./js/clider.js" type="module"></script>
+
 
 </html>

@@ -1,0 +1,119 @@
+.footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--another-text-color);
+    background-color: var(--background-second);
+}
+
+.footer-title{
+    width: 260px;
+}
+
+.form{
+
+    margin-top: 45px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    background-color: transparent;
+    color: var(--second-text-color);
+    width: 260px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+placeholder{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 160%;
+}
+
+.form-title{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.button-footer{
+    margin-top: 63px;
+}
+
+.footer-contacts{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 160%;
+}
+
+.contacts{
+    color: var(--background-main);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* text-decoration: none; */
+}
+
+.footer-contacts-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    margin-top: 56px;
+    padding-bottom: 61px;
+    border-bottom: 1px solid var(--backgrond-main);
+}
+
+.footer-confidense{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: var(--another-text-color);
+
+    margin-top: 59px;
+    margin-left:35px;
+    margin-right: 15px;
+}
+
+.footer-button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-button:hover,
+.footer-button:focus{
+    background-color: red;
+}
+
+.footer-set-button{
+    display: flex;
+    margin-top: 36px;
+}
+
+.footer-set-confidense{
+    height: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
