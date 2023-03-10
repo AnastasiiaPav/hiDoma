@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./sass/index.scss">
     <title>HiDOMA</title>
@@ -35,10 +35,24 @@
                 <li><a href="https://www.google.com.ua/"><img src="./image/Group4216(2).png" alt="logo1"
                             class="first-logo"></a></li>
                 <li><a href="https://www.google.com.ua/"><img src="./image/Group4216(1).png" alt="logo2"
-                            class="srcond-logo"></a></li>
+                            class="second-logo"></a></li>
             </ul>
             <button class="header-button" id="button-open"><span></span> <span></span> <span></span></button>
 
+            <div class="menu-desktop">
+                <ul class="menu-item">
+                    <li class="navigation-list-desc"><a href="#" class='navigation-desk'>НА ГОЛОВНУ</a></li>
+                    <li class="navigation-list-desc"><a href="#servise-yac" class='navigation-desk'>ПОСЛУГИ</a></li>
+                    <li class="navigation-list-desc"><a href="#works-yac" class='navigation-desk'>ПОРТФОЛІО</a></li>
+                    <li class="navigation-list-desc"><a href="#cooperation-yac" class='navigation-desk'>ЯК МИ
+                            ПРАЦЮЄМО?</a></li>
+                    <li class="navigation-list-desc"><a href="#footer-yac" class='navigation-desk'>КОНТАКТИ</a></li>
+                </ul>
+                <ul class="footer-set-button-desc header-set-button-desk">
+                    <li> <a href="" class="footer-button header-icon"> <img src="./image/Vector.png" alt=""></a></li>
+                    <li><a href="" class="footer-button header-icon"> <img src="./image/Vector (1).png" alt=""></a></li>
+                </ul>
+            </div>
             <nav class="menu-navigation" id="menu-navigation">
                 <ul class="menu">
                     <li class="navigation-list"><a href="#" class='navigation'>НА ГОЛОВНУ</a></li>
@@ -55,16 +69,27 @@
         </div>
         <div class="header-about">
             <h1 class="header-title">Житло, яке відображає ваш стиль</h1>
-            <p class="header-text">Помічник у створенні вашої нерухомої мрії</p>
-            <a href="#contact-forma" class="main-button">Залишити заявку</a>
+            <div class="header-desk-decor">
+                <p class="header-text">Помічник у створенні вашої нерухомої мрії</p>
+                <a href="#contact-forma" class="main-button">Залишити заявку</a>
+            </div>
         </div>
     </header>
     <section class="hero">
         <h2 class="hero-title"> • МАЄМО <br> ВЕЛИКИЙ ДОСВІД У СТВОРЕННІ ІНТЕР’ЄІВ </h2>
         <p class="hero-text">Тому гарантуємо надійність для клієнтів</p>
         <ul class="hero-photos-list">
-            <li><img src="./image/decor-photo2.png" alt="decor-photo" class="decor-photo2"></li>
-            <li><img src="./image/decor-photo.png" alt="decor-photo" class="decor-photo"></li>
+            <li>
+                <picture>
+                    <source srcset="./image/photobath2.png" media="(min-width: 900px)">
+                    <img src="./image/photobath1.png" alt="" class="decor-photo2">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="./image/photosbath2.png" media="(min-width: 900px)">
+                    <img src="./image/photosbath1.png" alt="" class="decor-photo">
+                </picture>
         </ul>
     </section>
     <section class="servise" id="servise-yac">
@@ -76,8 +101,8 @@
             <li class="servise-set">
                 <span class="servise-set-number">01.</span>
                 <div class="servise-text">
-                    <h3> Дизайн житлових інтер'єрів</h3>
-                    <p>Ми реалізуємо дизайн інтер'єру котеджей, домів та маланьких квартир. За умови грамотного дизайну
+                    <h3 class="servise-text-h"> Дизайн житлових інтер'єрів</h3>
+                    <p class="servise-text-p">Ми реалізуємо дизайн інтер'єру котеджей, домів та маланьких квартир. За умови грамотного дизайну
                         інтер'єру, навіть малогабаритну квартиру можна істотно розширити, модернізувати і візуально
                         збільшити, надавши їй більше корисного простору.</p>
                 </div>
@@ -85,16 +110,16 @@
             <li class="servise-set">
                 <span class="servise-set-number">02.</span>
                 <div class="servise-text">
-                    <h3> Дизайн комерційних інтер'єрів</h3>
-                    <p>Офіс, ресторан або кав’ярн. З нашими дизайнами Ви відчуєте всю силу простору та потенціал який
+                    <h3 class="servise-text-h"> Дизайн комерційних інтер'єрів</h3>
+                    <p class="servise-text-p">Офіс, ресторан або кав’ярн. З нашими дизайнами Ви відчуєте всю силу простору та потенціал який
                         відкриється</p>
                 </div>
             </li>
             <li class="servise-set">
                 <span class="servise-set-number">03.</span>
                 <div class="servise-text">
-                    <h3>Комплектація об'єкту</h3>
-                    <p>Вибір матеріалів і предметів інтер'єру разом із фахівцем - комплексна та економно вигідна послега
+                    <h3 class="servise-text-h">Комплектація об'єкту</h3>
+                    <p class="servise-text-p">Вибір матеріалів і предметів інтер'єру разом із фахівцем - комплексна та економно вигідна послега
                         для клієнта. Вона допомагає придбати стилістично виправдані та функціональні об'єкти, які не
                         будуть вибиватися із загальної картини Вашаго будинку</p>
                 </div>
@@ -102,12 +127,13 @@
             <li class="servise-set">
                 <span class="servise-set-number">04.</span>
                 <div class="servise-text">
-                    <h3>Ремонт об’экту під ключ</h3>
-                    <p>Наша команда спеціалістів перенесе картинку з бумаги у реальність. Фахіці знають як працювати з
+                    <h3 class="servise-text-h">Ремонт об’экту під ключ</h3>
+                    <p class="servise-text-p">Наша команда спеціалістів перенесе картинку з бумаги у реальність. Фахіці знають як працювати з
                         найновішими матеріалами та технологіями. Ефект "Вау" гарантовано!</p>
                 </div>
             </li>
         </ol>
+        <img src="./image/decorphotos.png" alt="" class="servise-photo">
     </section>
     <section class="works" id="works-yac">
         <h2 class="works-title"> ОЗНАЙОМТЕСЬ З НАШИМИ КЕЙСАМИ</h2>

@@ -1,42 +1,16 @@
-/* .header{
+.header{
     height: 845px;
     background-image: url(../image/backgroung.png);
     background-repeat: no-repeat;
-} */
-/* 
-@media only screen
-and (min-width: 900px) {
 
-    .header{
-      background-image: url(../image/background-deck.png);
-      background-repeat: no-repeat;
-      background-size: 100%;
-    }
-
-    .first-logo{
-        width: 43px;
-        height: 46px;
-    }
-
-    .srcond-logo{
-        width: 90px;
-        height: 39px;
-    }
-
+    background-size: cover;
+    background-color: black;
 }
-
-@media (min-width: 900px) {
-    .header-title{
-        font-size: 140px;
-        font-family: 'Cormorant Garamond', serif;
+@media(min-width: 900px){
+    .header{
+        background-image: url(../image/background-deck.png);
     }
-
-    .menu-navigation{
-        display: none;
-    }
-  } */
-  
-
+}
 
 .header-menu{
     padding: 40px;
@@ -48,15 +22,39 @@ and (min-width: 900px) {
     align-items: center;
 }
 
+@media(min-width: 900px){
+    .header-menu{
+    display: flex;
+    align-items: center;
+    }
+}
+
 .logo-compani{
     display: flex;
     align-items: baseline;
-
 }
+
+@media(min-width: 900px){
+    .logo-compani{
+    margin-right: 10px;
+    }}
 
 .first-logo{
     margin-right: 5px;
 }
+
+@media(min-width: 900px){
+    .first-logo{
+        width: 43px;
+        height: 46px;
+    }}
+
+
+@media(min-width: 900px){
+    .second-logo{
+        width: 90px;
+        height: 39px;
+        }}
 
 .header-button{
     position: fixed;
@@ -74,6 +72,35 @@ and (min-width: 900px) {
     display: flex;
     align-items: center;
 }
+
+@media(min-width: 900px){
+    .header-button{
+       display: none;
+    }}
+
+
+
+@media(min-width: 900px){
+        .menu-desktop{
+          display: flex;
+        }
+
+        .menu-item{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media(max-width: 900px){
+        .menu-desktop{
+          display: none;
+        }
+
+        .menu-item{
+            display: none;
+        }
+    }
+
 
 .header-icon{
     margin-right: 15px;
@@ -98,9 +125,11 @@ and (min-width: 900px) {
     transition: transform 1s;
 }
 
-.header.close .menu-navigation{
-    display: none;
-}
+@media(min-width: 900px){
+    .menu-navigation{
+      display: none;
+    }}
+
 
 .header.open .menu-navigation{
     transform: translate(550px, 0px);
@@ -156,8 +185,14 @@ display: block;
     color: var(--another-text-color);
     font-weight: 300;
     font-family: 'Cormorant Garamond', serif;
-
 }
+
+@media(min-width: 900px){
+    .header-title{
+        font-size: 140px;
+        line-height: 82.5%;
+        width: 1000px;
+    }}
 
 .header-text{
     font-size: 13;
@@ -168,6 +203,20 @@ display: block;
     margin-bottom: 53px;
 }
 
+@media(min-width: 900px){
+    .header-text{
+      font-size: 22px;
+      line-height: 160%;
+
+      width: 288px;
+    }}
+
+    @media(min-width: 900px){
+        .header-desk-decor{
+         display: flex;
+         flex-direction: column;
+        }}
+
 .header-about{
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +224,11 @@ display: block;
 
     padding-left: 40px;
 }
+
+@media(min-width: 900px){
+    .header-about{
+    justify-content: space-around;
+    }}
 
 .main-button{
     font-size: 13px;
@@ -191,6 +245,16 @@ display: block;
     justify-content: center;
     text-decoration: none;
 }
+
+@media(min-width: 900px){
+    .main-button{
+      width: 336px;
+      height: 106px;
+
+      font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    }}
 
 .main-button:hover,
 .main-button:focus{
@@ -215,6 +279,46 @@ display: block;
     color: var(--decoration-line);
 
     text-decoration: none;
+}
+
+
+@media(min-width: 900px){
+    .navigation-desk{
+        margin-right: 41px;
+
+        font-family: 'Cormorant Garamond', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 29px;
+        line-height: 82.5%;
+        cursor: pointer;
+    
+        color: var(--decoration-line);
+    
+        text-decoration: none;
+    }
+}
+
+.navigation-desk:hover,
+.navigation-desk:focus{
+    color: var(--hover-color);
+}
+
+a{
+    cursor: pointer;
+}
+@media(min-width: 900px){
+    .footer-set-button-desk{
+        margin-top: 0;
+        display: flex;
+    }
+}
+
+@media(min-width: 900px){
+    .header-set-button-desk{
+        margin-top: 0;
+        display: flex;
+    }
 }
 
 .navigation-list{
