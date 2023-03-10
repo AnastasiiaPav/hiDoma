@@ -1,19 +1,39 @@
-let offset = 0;
-const slider = document.querySelector('.slider-line')
+const images = document.querySelectorAll('.slider .slider-line img');
+const sliderLine = document.querySelector('.slider .slider-line');
+let count = 0;
+let width;
 
+function init() {
+    console.log('resize');
+    width = document.querySelector('.slider').offsetWidth;
+    sliderLine.style.width = width * images.length + 'px';
+    images.forEach(item => {
+        item.style.width = width + 'px';
+        item.style.height = 'auto';
+    });
+    rollSlider();
+}
 
-document.querySelector('.button-right').addEventListener('click', function(){
-    offset = offset + 256;
-    if (offset > 1024) {
-        offset = 0;
+init();
+window.addEventListener('resize', init);
+
+document.querySelector('.button-right').addEventListener('click', function () {
+    count++;
+    if (count >= images.length) {
+        count = 0;
     }
-    slider.style.left = -offset + 'px';
+    rollSlider();
 });
 
 document.querySelector('.button-left').addEventListener('click', function () {
-    offset = offset - 256;
-    if (offset < 0) {
-        offset = 1024;
+    count--;
+    if (count < 0) {
+        count = images.length - 1;
     }
-    slider.style.left = -offset + 'px';
+    rollSlider();
 });
+
+function rollSlider() {
+    sliderLine.style.transform = 'translate(-' + count * width + 'px)';
+
+}

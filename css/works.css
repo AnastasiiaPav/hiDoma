@@ -14,6 +14,12 @@
     margin-bottom: 39px;
 }
 
+@media(min-width: 900px){
+    .works-title{
+        font-size: 130px;
+        line-height: 82.5%;
+    }}
+
 .work-text{
     font-weight: 400;
     font-size: 13px;
@@ -24,6 +30,14 @@
     margin-top: 30px;
     margin-right: 10px;
 }
+
+@media(min-width: 900px){
+    .work-text{
+        font-size: 22px;
+        line-height: 160%;
+        width: 230px;
+    }}
+
 
 .button-set{
     display: flex;
@@ -51,8 +65,8 @@
 
 .slider {
     border: 2px solid black;
-    width: 256px;
-    height: 256px;
+    max-width: 550px;
+    height: 550px;
     margin: 20px auto;
     overflow: hidden;
 
@@ -73,6 +87,11 @@
 .slider-photo{
 width: 256px;
 }
+
+/* @media(min-width: 900px){
+    .slider-photo{
+     width: 550px;
+    }} */
 
 .works-about{
     display: flex;

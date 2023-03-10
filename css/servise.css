@@ -84,6 +84,7 @@
       width: 100%;
       display: flex;
       justify-content: space-around;
+      position: relative;
     }}
 
 .servise-text{
@@ -112,5 +113,8 @@
         .servise-photo{
           display: block;
           width: 343px;
+          position: absolute;
+          left: 350px;
+           top: 2950px;
         }}
     
