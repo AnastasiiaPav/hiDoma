@@ -1,5 +1,6 @@
 @import './utilits.css';
 @import './base.css';
+@import './mixin.css';
 
 @import './header.css';
 @import './hero.css';
