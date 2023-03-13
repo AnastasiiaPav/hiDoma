@@ -193,7 +193,7 @@ placeholder{
 }
 
 @media (min-width:900px) {
-    .footer-button{
+    .prob{
      width: 130px;
      height: 130px;
     }
@@ -233,7 +233,6 @@ placeholder{
     .footer-set-confidense{
         align-items: baseline;
         justify-content: space-between;
-        height: 150px;
     }}
 
 .contacts:hover,
