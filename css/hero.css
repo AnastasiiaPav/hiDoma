@@ -60,6 +60,9 @@
 @media(min-width: 900px){
     .hero-photos-list{
       justify-content: center;
+      flex-wrap: nowrap;
+      display: flex;
+      margin-left: 20px;
     }}
 
 .decor-photo{
@@ -78,6 +81,7 @@
     @media(min-width: 900px){
         .decor-photo2{
             width: 534px;
-           margin-right: 180px;
+            margin-left: 20px;
+           /* margin-right: 180px; */
 
         }}

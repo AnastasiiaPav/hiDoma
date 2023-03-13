@@ -29,6 +29,7 @@
     .cooperation-title{
         font-size: 130px;
         line-height: 82.5%;
+        margin-left:40px ;
     }}
 
 @media (min-width: 900px) {
@@ -42,6 +43,7 @@
 .cooperation-item{
     display: flex;
     align-items: baseline;
+    margin-left: 50px;
 }
 
 @media (min-width:900px) {

@@ -22,6 +22,8 @@
 @media(min-width: 900px){
     .footer-title{
     width: 1200px;
+    font-size: 100px;
+line-height: 82.5%;
     }}
 
 
@@ -233,6 +235,7 @@ placeholder{
     .footer-set-confidense{
         align-items: baseline;
         justify-content: space-between;
+        height: 150px;
     }}
 
 .contacts:hover,
