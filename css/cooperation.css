@@ -5,8 +5,15 @@
 
     margin-left: 20px;
     margin-right: 20px;
+    padding: 10px;
 
 }
+
+@media(min-width: 900px){
+    .cooperation-set{
+      display: flex;
+      flex-wrap: wrap;
+    }}
 
 .cooperation-title{
     font-family:  'Cormorant Garamond', serif;
@@ -18,9 +25,34 @@
     margin-bottom: 68px;
 }
 
+@media(min-width: 900px){
+    .cooperation-title{
+        font-size: 130px;
+        line-height: 82.5%;
+    }}
+
+@media (min-width: 900px) {
+   .set-cooperation{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+   }
+}
+
 .cooperation-item{
     display: flex;
     align-items: baseline;
+}
+
+@media (min-width:900px) {
+    .cooperation-item{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+
+        width: 390px;
+        align-items: center;
+    }
 }
 
 .cooperation-text{
